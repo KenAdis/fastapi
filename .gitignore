@@ -1,0 +1,26 @@
+# Environment files
+.env
+*.env
+
+# Python cache & virtual envs
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Logs
+*.log
+
+# Build / dist folders
+build/
+dist/
+
+# Node / frontend (if you have any JS)
+node_modules/
+*.tsbuildinfo
+
+# OS junk files
+.DS_Store
+Thumbs.db
