@@ -25,3 +25,20 @@ Install dependencies (recommended in a virtualenv):
 
 ```bash
 pip install "fastapi[standard]" uvicorn
+
+## How to Run `main.py`
+
+From the directory containing `main.py`, run the following commands **in order**.
+
+```bash
+# 1. Create a virtual environment
+python3 -m venv venv
+
+# 2. Activate the virtual environment
+source venv/bin/activate
+
+# 3. Install dependencies
+pip install "fastapi[standard]" uvicorn
+
+# 4. Run the FastAPI application
+uvicorn main:api --reload
