@@ -21,11 +21,6 @@ All logic lives in `main.py`.
 - FastAPI
 - Uvicorn
 
-Install dependencies (recommended in a virtualenv):
-
-```bash
-pip install "fastapi[standard]" uvicorn
-
 ## How to Run `main.py`
 
 From the directory containing `main.py`, run the following commands **in order**.
